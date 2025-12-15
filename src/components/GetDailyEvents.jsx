@@ -15,6 +15,7 @@ function GetDailyEvents(events){
         if(getDate(eventObj.eventDate) === getDate(new Date(Date.now()))){
             return eventObj
         }
+        return null
     })
     
     return(

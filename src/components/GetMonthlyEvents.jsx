@@ -5,6 +5,7 @@ function GetMonthlyEvents(events){
         if(eventObj.eventDate.getUTCMonth() === new Date(Date.now()).getUTCMonth() && eventObj.eventDate.getUTCFullYear() === new Date(Date.now()).getUTCFullYear()){
             return eventObj
         }
+        return null
     })
 
     return(
