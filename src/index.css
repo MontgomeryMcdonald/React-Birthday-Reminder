@@ -48,19 +48,24 @@ button:hover, input:hover, .card:hover{
   margin: 2rem;
   background-color: #454;
   padding: .25rem;
-  width: fit-content;
+  width: 100vw;
+  height: 40vw;
   border-radius: 15px;
   border: whitesmoke solid 4px;
+  font-size: xx-large;
+  text-align: center;
 }
 
 
 
-
+h3 p{
+  text-align: center;
+}
 .eventDiv{
     display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   color: white;
-  width: 90%;
-  max-width: 95%;
+  width: 100vw;
+  max-width: 100vw;
 }
